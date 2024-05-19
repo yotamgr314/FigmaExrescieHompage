@@ -1,0 +1,35 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+/* will automaticly display in the whole max size of the screen */
+head, nav, main, aside,section,article,footer,div {
+    display: block;
+}
+
+body {
+    background-color: F2F2F2;
+}
+
+/* 0px למעלה ולמטה: אין מרווח בחלק העליון והתחתון של האלמנט.
+125px לימין ולשמאל: האלמנט יהיה מוקף במרווח של 125 פיקסלים מכל צד בצדדים הימני והשמאלי. */
+#wrapper {
+    margin:0px 125px;
+}
+
+/* כי מדדתי וראיתי שזה המרחק של ההדר מהגג של העמוד */
+header {
+    margin-top: 15px;
+}
+
+
+#logo {
+
+    background-image: url("images/Star.png");
+    background-repeat: no-repeat;
+   background-size: contain;
+   display: block;
+   height: 88px;
+   width: 88px;
+}
